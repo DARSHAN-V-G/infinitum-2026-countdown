@@ -126,7 +126,7 @@ const Home: React.FC = ()=>{
               {/* Email */}
               <div className="flex justify-center mt-4">
                 <a href="mailto:infinitum@psgtech.edu" className="text-white hover:text-[#FF1170] transition-colors" style={{ fontFamily: 'var(--font-family-albert)' }}>
-                  ✉️ csea@psgtech.ac.in
+                  ✉️ csea.cse@psgtech.ac.in
                 </a>
               </div>
             </div>
