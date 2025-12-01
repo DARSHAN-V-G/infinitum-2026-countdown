@@ -79,6 +79,58 @@ const Home: React.FC = ()=>{
           <div className="w-full flex justify-center mt-6 sm:mt-8 relative z-20">
             <CountdownTimer />
           </div>
+
+
+
+          {/* Footer */}
+          <footer className="w-full mt-16 sm:mt-20 pb-8 relative z-20">
+            <div className="max-w-4xl mx-auto px-4">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12">
+                {/* Contact Numbers */}
+                <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
+                  <div className="flex flex-col items-center">
+                    <span className="text-white text-base font-semibold mb-0.5" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      ARULKUMARA B R
+                    </span>
+                    <span className="text-white text-xs opacity-75 mb-1" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      Secretary, CSEA
+                    </span>
+                    <a href="tel:+1234567890" className="text-white hover:text-[#FF1170] transition-colors" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      📞 +91 86102 02823
+                    </a>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <span className="text-white text-base font-semibold mb-0.5" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      SANJAY J
+                    </span>
+                    <span className="text-white text-xs opacity-75 mb-1" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      Joint Secretary, CSEA
+                    </span>
+                    <a href="tel:+1234567891" className="text-white hover:text-[#FF1170] transition-colors" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      📞 +91 97897 10033
+                    </a>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <span className="text-white text-base font-semibold mb-0.5" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      NAREN SIDDHARTH M
+                    </span>
+                    <span className="text-white text-xs opacity-75 mb-1" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      Head, Sponsorship
+                    </span>
+                    <a href="tel:+1234567892" className="text-white hover:text-[#FF1170] transition-colors" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                      📞 +91 99409 79069
+                    </a>
+                  </div>
+                </div>
+              </div>
+              {/* Email */}
+              <div className="flex justify-center mt-4">
+                <a href="mailto:infinitum@psgtech.edu" className="text-white hover:text-[#FF1170] transition-colors" style={{ fontFamily: 'var(--font-family-albert)' }}>
+                  ✉️ csea@psgtech.ac.in
+                </a>
+              </div>
+            </div>
+          </footer>
         </main>
       </div>
     </>
