@@ -11,6 +11,15 @@ import DomeGallery from '@/components/DomeGallery';
 import { LightRays } from '@/components/ui/light-rays';
 
 const Home: React.FC = ()=>{
+
+    const infinitum2025Images : string[] = [
+      "https://res.cloudinary.com/duj1qgmah/image/upload/v1764603651/IMG_2451_vob41d.jpg",
+      "https://res.cloudinary.com/duj1qgmah/image/upload/v1764603650/IMG_5022_ctpmgy.jpg",
+      "https://res.cloudinary.com/duj1qgmah/image/upload/v1764603650/DSC_2395_1_x8jyzm.jpg",
+      "https://res.cloudinary.com/duj1qgmah/image/upload/v1764603648/IMG_2567_oy5v7l.jpg",
+      "https://res.cloudinary.com/duj1qgmah/image/upload/v1764603647/IMG_2140_ehc7ku.jpg",
+    ]
+
     return (
     <>
       {/* Hero Section */}
@@ -105,7 +114,13 @@ const Home: React.FC = ()=>{
         
         <img src={Infinitum2025Text} className='relative z-10 h-40 sm:h-120 sm:mb-17 w-auto' alt="Infinitum 2025" />
         <div className="relative z-10 w-full sm:w-[800px] h-[400px] sm:h-[600px]">
-          <DomeGallery/>
+          <DomeGallery 
+            images={infinitum2025Images}
+            grayscale={false}
+            segments={25}
+            fit={0.6}
+            minRadius={400}
+          />
         </div>
       </div>
 
